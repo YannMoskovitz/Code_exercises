@@ -3,8 +3,8 @@ def timeConversion(s):
     minutes_seconds_list = time_characters_list[2:8]
     minutes_seconds = '' # sliced and concatenated ":mm:ss" so it will be concatenated with the correct "hour" variable 
     hour = s[:2]
-    for t in minutes_seconds_list:
-        minutes_seconds += t
+    for character_in_list in minutes_seconds_list:
+        minutes_seconds += character_in_list
     if "P" in time_characters_list:
         
         if hour == '12':
