@@ -1,1 +1,3 @@
-# Code_exercises practice exercises from hackerrank/leetcode
+# Code_exercises
+
+> practice exercises from hackerrank/leetcode
