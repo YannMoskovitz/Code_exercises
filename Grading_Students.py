@@ -1,6 +1,6 @@
-#grades are from 0-100
-# passing grade = 40
-#if grade - next grade multiple of 5 in module <= 3 round up to the next grade
+#grades range from 0-100
+#passing grade = 40
+#if "the next grade that is a multiple of 5" minus grade is lower 3 round up to the next grade
 #if grade < 38 never round up since it won't make the passing grade even if rounded up
 
 grades = [73,67,38,33]
